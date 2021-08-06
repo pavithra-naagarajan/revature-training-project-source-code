@@ -1,5 +1,5 @@
 # revature-training-project-source-code
-<h4><center>Project Title:Library Management System</center></h4>
+<h2><center>Project Title:Library Management System</center></h2>
 <p style="text-align:justify">A library management system is for managing the user details and book information digitally.The users can register their profile to the Library management system.They can create an account if the user is new to the library management system.After creating an account they can login and view their personal page.In personal page lot of options are available by using that they can search the books.The available options are:</p>
   <ul>
     <li>Search book by Book Name</li>
