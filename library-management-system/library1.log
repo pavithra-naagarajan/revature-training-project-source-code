@@ -1,0 +1,370 @@
+INFO	2021-08-12 21:51:04,922	0	LibraryHome	[main]	            Welcome to the Library Management System
+INFO	2021-08-12 21:51:04,924	2	LibraryHome	[main]	*********************************************************************************
+INFO	2021-08-12 21:51:04,924	2	LibraryHome	[main]	Library Home page is started 
+INFO	2021-08-12 21:51:05,366	444	LibraryClient	[main]	Home page:
+INFO	2021-08-12 21:51:05,366	444	LibraryClient	[main]	
+1.Login
+2.Create Account
+-1.Exit
+INFO	2021-08-12 21:51:05,366	444	LibraryClient	[main]	Enter your choice:
+INFO	2021-08-12 21:51:06,968	2046	LibraryClient	[main]	Login is activated 
+INFO	2021-08-12 21:51:06,968	2046	LibraryClient	[main]	Welcome to Login Section:
+INFO	2021-08-12 21:51:06,968	2046	LibraryClient	[main]	Enter your login type:
+1: for login as Admin :
+2: for login as User: 
+INFO	2021-08-12 21:51:06,976	2054	LibraryClient	[main]	**********************************************************************
+INFO	2021-08-12 21:51:08,132	3210	LibraryClient	[main]	Admin Login is activated Thu Aug 12 21:51:08 IST 2021
+INFO	2021-08-12 21:51:08,132	3210	LibraryClient	[main]	Welcome to Admin Login Section:
+INFO	2021-08-12 21:51:08,132	3210	LibraryClient	[main]	Please Enter the details to login:
+INFO	2021-08-12 21:51:08,132	3210	LibraryClient	[main]	**********************************************************************
+INFO	2021-08-12 21:51:08,132	3210	LibraryClient	[main]	Enter adminId:
+INFO	2021-08-12 21:51:10,039	5117	LibraryClient	[main]	Enter AdminPassword:
+INFO	2021-08-12 21:51:14,316	9394	LibraryClient	[main]	your Login is finished successfully
+INFO	2021-08-12 21:51:14,316	9394	LibraryClient	[main]	your role is :useradmin
+INFO	2021-08-12 21:51:14,390	9468	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:51:14,391	9469	LibraryManagement	[main]	1.Add User 
+INFO	2021-08-12 21:51:14,391	9469	LibraryManagement	[main]	2.Delete User 
+INFO	2021-08-12 21:51:14,391	9469	LibraryManagement	[main]	3.Update User 
+INFO	2021-08-12 21:51:14,391	9469	LibraryManagement	[main]	4.Find User By UserId
+INFO	2021-08-12 21:51:14,391	9469	LibraryManagement	[main]	5.Find user by UserName
+INFO	2021-08-12 21:51:14,391	9469	LibraryManagement	[main]	-1.EXIT
+WARN	2021-08-12 21:51:16,134	11212	LibraryManagement	[main]	Enter appropriate choice your input is mismatched!
+INFO	2021-08-12 21:51:16,135	11213	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:51:16,135	11213	LibraryManagement	[main]	1.Add User 
+INFO	2021-08-12 21:51:16,135	11213	LibraryManagement	[main]	2.Delete User 
+INFO	2021-08-12 21:51:16,135	11213	LibraryManagement	[main]	3.Update User 
+INFO	2021-08-12 21:51:16,135	11213	LibraryManagement	[main]	4.Find User By UserId
+INFO	2021-08-12 21:51:16,135	11213	LibraryManagement	[main]	5.Find user by UserName
+INFO	2021-08-12 21:51:16,135	11213	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:51:23,505	18583	LibraryManagement	[main]	Enter your choice : 
+INFO	2021-08-12 21:51:23,505	18583	LibraryManagement	[main]	Admin starting Find user by userId 
+INFO	2021-08-12 21:51:23,505	18583	LibraryManagement	[main]	Enter userId to find:
+INFO	2021-08-12 21:51:25,125	20203	LibraryManagement	[main]	User [userId=1, userName=pavithra, userRole=student, userMailId=pavi@com, userMobileNumber=876787678, userPassword=2021-08-12, dateCreatedOn=null]
+INFO	2021-08-12 21:51:25,126	20204	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:51:25,126	20204	LibraryManagement	[main]	1.Add User 
+INFO	2021-08-12 21:51:25,126	20204	LibraryManagement	[main]	2.Delete User 
+INFO	2021-08-12 21:51:25,126	20204	LibraryManagement	[main]	3.Update User 
+INFO	2021-08-12 21:51:25,126	20204	LibraryManagement	[main]	4.Find User By UserId
+INFO	2021-08-12 21:51:25,126	20204	LibraryManagement	[main]	5.Find user by UserName
+INFO	2021-08-12 21:51:25,126	20204	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:51:26,880	21958	LibraryManagement	[main]	Enter your choice : 
+INFO	2021-08-12 21:51:26,880	21958	LibraryManagement	[main]	Admin starting Find user by userName 
+INFO	2021-08-12 21:51:26,880	21958	LibraryManagement	[main]	Enter userName to find:
+WARN	2021-08-12 21:51:29,094	24172	LibraryManagement	[main]	The user is not exist for given Name
+INFO	2021-08-12 21:51:29,094	24172	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:51:29,094	24172	LibraryManagement	[main]	1.Add User 
+INFO	2021-08-12 21:51:29,094	24172	LibraryManagement	[main]	2.Delete User 
+INFO	2021-08-12 21:51:29,094	24172	LibraryManagement	[main]	3.Update User 
+INFO	2021-08-12 21:51:29,095	24173	LibraryManagement	[main]	4.Find User By UserId
+INFO	2021-08-12 21:51:29,095	24173	LibraryManagement	[main]	5.Find user by UserName
+INFO	2021-08-12 21:51:29,095	24173	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:51:31,426	26504	LibraryManagement	[main]	Enter your choice : 
+INFO	2021-08-12 21:51:31,426	26504	LibraryManagement	[main]	Admin starting Find user by userName 
+INFO	2021-08-12 21:51:31,427	26505	LibraryManagement	[main]	Enter userName to find:
+WARN	2021-08-12 21:51:32,726	27804	LibraryManagement	[main]	The user is not exist for given Name
+INFO	2021-08-12 21:51:32,726	27804	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:51:32,726	27804	LibraryManagement	[main]	1.Add User 
+INFO	2021-08-12 21:51:32,726	27804	LibraryManagement	[main]	2.Delete User 
+INFO	2021-08-12 21:51:32,726	27804	LibraryManagement	[main]	3.Update User 
+INFO	2021-08-12 21:51:32,726	27804	LibraryManagement	[main]	4.Find User By UserId
+INFO	2021-08-12 21:51:32,726	27804	LibraryManagement	[main]	5.Find user by UserName
+INFO	2021-08-12 21:51:32,726	27804	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:51:39,337	34415	LibraryManagement	[main]	Enter your choice : 
+INFO	2021-08-12 21:51:39,338	34416	LibraryManagement	[main]	Admin starting Find user by userName 
+INFO	2021-08-12 21:51:39,338	34416	LibraryManagement	[main]	Enter userName to find:
+WARN	2021-08-12 21:51:41,603	36681	LibraryManagement	[main]	The user is not exist for given Name
+INFO	2021-08-12 21:51:41,603	36681	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:51:41,603	36681	LibraryManagement	[main]	1.Add User 
+INFO	2021-08-12 21:51:41,603	36681	LibraryManagement	[main]	2.Delete User 
+INFO	2021-08-12 21:51:41,603	36681	LibraryManagement	[main]	3.Update User 
+INFO	2021-08-12 21:51:41,603	36681	LibraryManagement	[main]	4.Find User By UserId
+INFO	2021-08-12 21:51:41,603	36681	LibraryManagement	[main]	5.Find user by UserName
+INFO	2021-08-12 21:51:41,603	36681	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:51:43,555	38633	LibraryManagement	[main]	Enter your choice : 
+INFO	2021-08-12 21:51:43,555	38633	LibraryManagement	[main]	Admin starting Find user by userName 
+INFO	2021-08-12 21:51:43,555	38633	LibraryManagement	[main]	Enter userName to find:
+WARN	2021-08-12 21:51:45,904	40982	LibraryManagement	[main]	The user is not exist for given Name
+INFO	2021-08-12 21:51:45,904	40982	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:51:45,904	40982	LibraryManagement	[main]	1.Add User 
+INFO	2021-08-12 21:51:45,904	40982	LibraryManagement	[main]	2.Delete User 
+INFO	2021-08-12 21:51:45,904	40982	LibraryManagement	[main]	3.Update User 
+INFO	2021-08-12 21:51:45,904	40982	LibraryManagement	[main]	4.Find User By UserId
+INFO	2021-08-12 21:51:45,904	40982	LibraryManagement	[main]	5.Find user by UserName
+INFO	2021-08-12 21:51:45,904	40982	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:51:48,901	43979	LibraryManagement	[main]	Enter your choice : 
+INFO	2021-08-12 21:51:48,901	43979	LibraryManagement	[main]	Admin exit the personal page
+INFO	2021-08-12 21:51:48,932	44010	LibraryClient	[main]	Home page:
+INFO	2021-08-12 21:51:48,932	44010	LibraryClient	[main]	
+1.Login
+2.Create Account
+-1.Exit
+INFO	2021-08-12 21:51:48,932	44010	LibraryClient	[main]	Enter your choice:
+INFO	2021-08-12 21:51:51,912	46990	LibraryClient	[main]	Login is activated 
+INFO	2021-08-12 21:51:51,912	46990	LibraryClient	[main]	Welcome to Login Section:
+INFO	2021-08-12 21:51:51,912	46990	LibraryClient	[main]	Enter your login type:
+1: for login as Admin :
+2: for login as User: 
+INFO	2021-08-12 21:51:51,912	46990	LibraryClient	[main]	**********************************************************************
+INFO	2021-08-12 21:51:53,645	48723	LibraryClient	[main]	Admin Login is activated Thu Aug 12 21:51:53 IST 2021
+INFO	2021-08-12 21:51:53,645	48723	LibraryClient	[main]	Welcome to Admin Login Section:
+INFO	2021-08-12 21:51:53,645	48723	LibraryClient	[main]	Please Enter the details to login:
+INFO	2021-08-12 21:51:53,645	48723	LibraryClient	[main]	**********************************************************************
+INFO	2021-08-12 21:51:53,645	48723	LibraryClient	[main]	Enter adminId:
+INFO	2021-08-12 21:51:56,058	51136	LibraryClient	[main]	Enter AdminPassword:
+INFO	2021-08-12 21:51:59,036	54114	LibraryClient	[main]	your Login is finished successfully
+INFO	2021-08-12 21:51:59,036	54114	LibraryClient	[main]	your role is :fineadmin
+INFO	2021-08-12 21:51:59,036	54114	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:51:59,037	54115	LibraryManagement	[main]	1.view All books
+INFO	2021-08-12 21:51:59,037	54115	LibraryManagement	[main]	2.view All Users 
+INFO	2021-08-12 21:51:59,037	54115	LibraryManagement	[main]	3.Display issued book details
+INFO	2021-08-12 21:51:59,037	54115	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:51:59,037	54115	LibraryManagement	[main]	Enter your choice : 
+INFO	2021-08-12 21:52:01,340	56418	LibraryManagement	[main]	Admin starting view all books 
+INFO	2021-08-12 21:52:01,340	56418	LibraryManagement	[main]	Wecome to view all Books section ##
+INFO	2021-08-12 21:52:01,346	56424	LibraryManagement	[main]	###Entire list of Books:
+INFO	2021-08-12 21:52:01,346	56424	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:52:01,346	56424	LibraryManagement	[main]	1.view All books
+INFO	2021-08-12 21:52:01,346	56424	LibraryManagement	[main]	2.view All Users 
+INFO	2021-08-12 21:52:01,346	56424	LibraryManagement	[main]	3.Display issued book details
+INFO	2021-08-12 21:52:01,346	56424	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:52:01,346	56424	LibraryManagement	[main]	Enter your choice : 
+INFO	2021-08-12 21:52:03,177	58255	LibraryManagement	[main]	Admin starting view all users
+INFO	2021-08-12 21:52:03,177	58255	LibraryManagement	[main]	Wecome to view all Users section ##
+INFO	2021-08-12 21:52:03,178	58256	LibraryManagement	[main]	###Entire list of users:
+INFO	2021-08-12 21:52:03,178	58256	LibraryManagement	[main]	User [userId=2, userName=logi, userRole=student, userMailId=logi@com, userMobileNumber=889789965, userPassword=logi123, dateCreatedOn=22-03-2012]
+INFO	2021-08-12 21:52:03,178	58256	LibraryManagement	[main]	User [userId=5, userName=vijay, userRole=student, userMailId=vijay@com, userMobileNumber=781286765, userPassword=vijay123, dateCreatedOn=07-07-2021]
+INFO	2021-08-12 21:52:03,178	58256	LibraryManagement	[main]	User [userId=3, userName=mathii, userRole=student, userMailId=mathi@com, userMobileNumber=567567543, userPassword=mathi123, dateCreatedOn=2021-08-12]
+INFO	2021-08-12 21:52:03,178	58256	LibraryManagement	[main]	User [userId=1, userName=pavithra, userRole=student, userMailId=pavi@com, userMobileNumber=876787678, userPassword=pavi123, dateCreatedOn=2021-08-12]
+INFO	2021-08-12 21:52:03,178	58256	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:52:03,178	58256	LibraryManagement	[main]	1.view All books
+INFO	2021-08-12 21:52:03,178	58256	LibraryManagement	[main]	2.view All Users 
+INFO	2021-08-12 21:52:03,178	58256	LibraryManagement	[main]	3.Display issued book details
+INFO	2021-08-12 21:52:03,178	58256	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:52:03,178	58256	LibraryManagement	[main]	Enter your choice : 
+INFO	2021-08-12 21:52:04,549	59627	LibraryManagement	[main]	Admin starting display issued book details section 
+INFO	2021-08-12 21:52:04,549	59627	LibraryManagement	[main]	
+Enter the user's id to get the details of book borrowed
+INFO	2021-08-12 21:52:05,316	60394	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:52:05,316	60394	LibraryManagement	[main]	1.view All books
+INFO	2021-08-12 21:52:05,317	60395	LibraryManagement	[main]	2.view All Users 
+INFO	2021-08-12 21:52:05,317	60395	LibraryManagement	[main]	3.Display issued book details
+INFO	2021-08-12 21:52:05,317	60395	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:52:05,317	60395	LibraryManagement	[main]	Enter your choice : 
+INFO	2021-08-12 21:52:08,359	63437	LibraryManagement	[main]	Admin exit the personal page
+INFO	2021-08-12 21:52:08,389	63467	LibraryClient	[main]	Home page:
+INFO	2021-08-12 21:52:08,389	63467	LibraryClient	[main]	
+1.Login
+2.Create Account
+-1.Exit
+INFO	2021-08-12 21:52:08,389	63467	LibraryClient	[main]	Enter your choice:
+INFO	2021-08-12 21:52:09,570	64648	LibraryClient	[main]	Login is activated 
+INFO	2021-08-12 21:52:09,570	64648	LibraryClient	[main]	Welcome to Login Section:
+INFO	2021-08-12 21:52:09,570	64648	LibraryClient	[main]	Enter your login type:
+1: for login as Admin :
+2: for login as User: 
+INFO	2021-08-12 21:52:09,570	64648	LibraryClient	[main]	**********************************************************************
+INFO	2021-08-12 21:52:10,632	65710	LibraryClient	[main]	Admin Login is activated Thu Aug 12 21:52:10 IST 2021
+INFO	2021-08-12 21:52:10,633	65711	LibraryClient	[main]	Welcome to Admin Login Section:
+INFO	2021-08-12 21:52:10,633	65711	LibraryClient	[main]	Please Enter the details to login:
+INFO	2021-08-12 21:52:10,633	65711	LibraryClient	[main]	**********************************************************************
+INFO	2021-08-12 21:52:10,633	65711	LibraryClient	[main]	Enter adminId:
+INFO	2021-08-12 21:52:12,412	67490	LibraryClient	[main]	Enter AdminPassword:
+INFO	2021-08-12 21:52:15,240	70318	LibraryClient	[main]	your Login is finished successfully
+INFO	2021-08-12 21:52:15,240	70318	LibraryClient	[main]	your role is :bookadmin
+INFO	2021-08-12 21:52:15,241	70319	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:52:15,241	70319	LibraryManagement	[main]	1.Add Book 
+INFO	2021-08-12 21:52:15,241	70319	LibraryManagement	[main]	2.Delete Book 
+INFO	2021-08-12 21:52:15,241	70319	LibraryManagement	[main]	3.Update Book 
+INFO	2021-08-12 21:52:15,241	70319	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:52:15,241	70319	LibraryManagement	[main]	Enter your choice : 
+INFO	2021-08-12 21:52:21,058	76136	LibraryManagement	[main]	Admin starting Delete book section 
+INFO	2021-08-12 21:52:21,058	76136	LibraryManagement	[main]	Wecome to Delete Book section
+enter bookId to be deleted:
+WARN	2021-08-12 21:52:45,925	101003	LibraryClient	[main]	Enter appropriate choice your input is mismatched!
+INFO	2021-08-12 21:52:45,925	101003	LibraryClient	[main]	Home page:
+INFO	2021-08-12 21:52:45,925	101003	LibraryClient	[main]	
+1.Login
+2.Create Account
+-1.Exit
+INFO	2021-08-12 21:52:45,925	101003	LibraryClient	[main]	Enter your choice:
+WARN	2021-08-12 21:53:10,872	125950	LibraryClient	[main]	Enter appropriate input values, your input is mismatched!
+INFO	2021-08-12 21:53:10,872	125950	LibraryClient	[main]	Home page:
+INFO	2021-08-12 21:53:10,872	125950	LibraryClient	[main]	
+1.Login
+2.Create Account
+-1.Exit
+INFO	2021-08-12 21:53:10,872	125950	LibraryClient	[main]	Enter your choice:
+INFO	2021-08-12 21:53:14,771	129849	LibraryClient	[main]	Login is activated 
+INFO	2021-08-12 21:53:14,771	129849	LibraryClient	[main]	Welcome to Login Section:
+INFO	2021-08-12 21:53:14,771	129849	LibraryClient	[main]	Enter your login type:
+1: for login as Admin :
+2: for login as User: 
+INFO	2021-08-12 21:53:14,771	129849	LibraryClient	[main]	**********************************************************************
+INFO	2021-08-12 21:53:16,060	131138	LibraryClient	[main]	Admin Login is activated Thu Aug 12 21:53:16 IST 2021
+INFO	2021-08-12 21:53:16,060	131138	LibraryClient	[main]	Welcome to Admin Login Section:
+INFO	2021-08-12 21:53:16,060	131138	LibraryClient	[main]	Please Enter the details to login:
+INFO	2021-08-12 21:53:16,060	131138	LibraryClient	[main]	**********************************************************************
+INFO	2021-08-12 21:53:16,060	131138	LibraryClient	[main]	Enter adminId:
+INFO	2021-08-12 21:53:17,675	132753	LibraryClient	[main]	Enter AdminPassword:
+INFO	2021-08-12 21:53:20,760	135838	LibraryClient	[main]	your Login is finished successfully
+INFO	2021-08-12 21:53:20,760	135838	LibraryClient	[main]	your role is :bookadmin
+INFO	2021-08-12 21:53:20,760	135838	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:53:20,760	135838	LibraryManagement	[main]	1.Add Book 
+INFO	2021-08-12 21:53:20,760	135838	LibraryManagement	[main]	2.Delete Book 
+INFO	2021-08-12 21:53:20,760	135838	LibraryManagement	[main]	3.Update Book 
+INFO	2021-08-12 21:53:20,761	135839	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:53:20,761	135839	LibraryManagement	[main]	Enter your choice : 
+WARN	2021-08-12 21:53:20,761	135839	LibraryManagement	[main]	Enter appropriate choice your input is mismatched!
+INFO	2021-08-12 21:53:20,761	135839	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:53:20,761	135839	LibraryManagement	[main]	1.Add Book 
+INFO	2021-08-12 21:53:20,761	135839	LibraryManagement	[main]	2.Delete Book 
+INFO	2021-08-12 21:53:20,761	135839	LibraryManagement	[main]	3.Update Book 
+INFO	2021-08-12 21:53:20,761	135839	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:53:20,761	135839	LibraryManagement	[main]	Enter your choice : 
+INFO	2021-08-12 21:53:41,743	156821	LibraryManagement	[main]	Admin exit the personal page
+INFO	2021-08-12 21:53:41,881	156959	LibraryClient	[main]	Home page:
+INFO	2021-08-12 21:53:41,881	156959	LibraryClient	[main]	
+1.Login
+2.Create Account
+-1.Exit
+INFO	2021-08-12 21:53:41,881	156959	LibraryClient	[main]	Enter your choice:
+INFO	2021-08-12 21:53:48,963	164041	LibraryClient	[main]	Login is activated 
+INFO	2021-08-12 21:53:48,963	164041	LibraryClient	[main]	Welcome to Login Section:
+INFO	2021-08-12 21:53:48,964	164042	LibraryClient	[main]	Enter your login type:
+1: for login as Admin :
+2: for login as User: 
+INFO	2021-08-12 21:53:48,964	164042	LibraryClient	[main]	**********************************************************************
+INFO	2021-08-12 21:53:52,012	167090	LibraryClient	[main]	Admin Login is activated Thu Aug 12 21:53:52 IST 2021
+INFO	2021-08-12 21:53:52,012	167090	LibraryClient	[main]	Welcome to Admin Login Section:
+INFO	2021-08-12 21:53:52,012	167090	LibraryClient	[main]	Please Enter the details to login:
+INFO	2021-08-12 21:53:52,012	167090	LibraryClient	[main]	**********************************************************************
+INFO	2021-08-12 21:53:52,012	167090	LibraryClient	[main]	Enter adminId:
+INFO	2021-08-12 21:53:54,669	169747	LibraryClient	[main]	Enter AdminPassword:
+INFO	2021-08-12 21:53:58,302	173380	LibraryClient	[main]	your Login is finished successfully
+INFO	2021-08-12 21:53:58,302	173380	LibraryClient	[main]	your role is :bookadmin
+INFO	2021-08-12 21:53:58,303	173381	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:53:58,303	173381	LibraryManagement	[main]	1.Add Book 
+INFO	2021-08-12 21:53:58,303	173381	LibraryManagement	[main]	2.Delete Book 
+INFO	2021-08-12 21:53:58,303	173381	LibraryManagement	[main]	3.Update Book 
+INFO	2021-08-12 21:53:58,303	173381	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:53:58,303	173381	LibraryManagement	[main]	Enter your choice : 
+INFO	2021-08-12 21:54:05,793	180871	LibraryManagement	[main]	Admin exit the personal page
+INFO	2021-08-12 21:54:05,824	180902	LibraryClient	[main]	Home page:
+INFO	2021-08-12 21:54:05,824	180902	LibraryClient	[main]	
+1.Login
+2.Create Account
+-1.Exit
+INFO	2021-08-12 21:54:05,824	180902	LibraryClient	[main]	Enter your choice:
+INFO	2021-08-12 21:54:06,885	181963	LibraryClient	[main]	Login is activated 
+INFO	2021-08-12 21:54:06,886	181964	LibraryClient	[main]	Welcome to Login Section:
+INFO	2021-08-12 21:54:06,886	181964	LibraryClient	[main]	Enter your login type:
+1: for login as Admin :
+2: for login as User: 
+INFO	2021-08-12 21:54:06,886	181964	LibraryClient	[main]	**********************************************************************
+INFO	2021-08-12 21:54:07,814	182892	LibraryClient	[main]	Admin Login is activated Thu Aug 12 21:54:07 IST 2021
+INFO	2021-08-12 21:54:07,814	182892	LibraryClient	[main]	Welcome to Admin Login Section:
+INFO	2021-08-12 21:54:07,814	182892	LibraryClient	[main]	Please Enter the details to login:
+INFO	2021-08-12 21:54:07,814	182892	LibraryClient	[main]	**********************************************************************
+INFO	2021-08-12 21:54:07,814	182892	LibraryClient	[main]	Enter adminId:
+INFO	2021-08-12 21:54:10,543	185621	LibraryClient	[main]	Enter AdminPassword:
+INFO	2021-08-12 21:54:13,319	188397	LibraryClient	[main]	your Login is finished successfully
+INFO	2021-08-12 21:54:13,320	188398	LibraryClient	[main]	your role is :useradmin
+INFO	2021-08-12 21:54:13,320	188398	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:54:13,320	188398	LibraryManagement	[main]	1.Add User 
+INFO	2021-08-12 21:54:13,320	188398	LibraryManagement	[main]	2.Delete User 
+INFO	2021-08-12 21:54:13,320	188398	LibraryManagement	[main]	3.Update User 
+INFO	2021-08-12 21:54:13,320	188398	LibraryManagement	[main]	4.Find User By UserId
+INFO	2021-08-12 21:54:13,320	188398	LibraryManagement	[main]	5.Find user by UserName
+INFO	2021-08-12 21:54:13,320	188398	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:54:15,720	190798	LibraryManagement	[main]	Enter your choice : 
+INFO	2021-08-12 21:54:15,721	190799	LibraryManagement	[main]	Admin exit the personal page
+INFO	2021-08-12 21:54:15,751	190829	LibraryClient	[main]	Home page:
+INFO	2021-08-12 21:54:15,751	190829	LibraryClient	[main]	
+1.Login
+2.Create Account
+-1.Exit
+INFO	2021-08-12 21:54:15,751	190829	LibraryClient	[main]	Enter your choice:
+INFO	2021-08-12 21:54:17,034	192112	LibraryClient	[main]	Login is activated 
+INFO	2021-08-12 21:54:17,034	192112	LibraryClient	[main]	Welcome to Login Section:
+INFO	2021-08-12 21:54:17,034	192112	LibraryClient	[main]	Enter your login type:
+1: for login as Admin :
+2: for login as User: 
+INFO	2021-08-12 21:54:17,034	192112	LibraryClient	[main]	**********************************************************************
+WARN	2021-08-12 21:54:19,172	194250	LibraryClient	[main]	Incorrect type! Please enter the appropriate type........
+INFO	2021-08-12 21:54:19,172	194250	LibraryClient	[main]	Home page:
+INFO	2021-08-12 21:54:19,172	194250	LibraryClient	[main]	
+1.Login
+2.Create Account
+-1.Exit
+INFO	2021-08-12 21:54:19,172	194250	LibraryClient	[main]	Enter your choice:
+INFO	2021-08-12 21:54:22,901	197979	LibraryClient	[main]	Login is activated 
+INFO	2021-08-12 21:54:22,901	197979	LibraryClient	[main]	Welcome to Login Section:
+INFO	2021-08-12 21:54:22,901	197979	LibraryClient	[main]	Enter your login type:
+1: for login as Admin :
+2: for login as User: 
+INFO	2021-08-12 21:54:22,901	197979	LibraryClient	[main]	**********************************************************************
+INFO	2021-08-12 21:54:23,457	198535	LibraryClient	[main]	Admin Login is activated Thu Aug 12 21:54:23 IST 2021
+INFO	2021-08-12 21:54:23,458	198536	LibraryClient	[main]	Welcome to Admin Login Section:
+INFO	2021-08-12 21:54:23,458	198536	LibraryClient	[main]	Please Enter the details to login:
+INFO	2021-08-12 21:54:23,458	198536	LibraryClient	[main]	**********************************************************************
+INFO	2021-08-12 21:54:23,458	198536	LibraryClient	[main]	Enter adminId:
+INFO	2021-08-12 21:54:26,109	201187	LibraryClient	[main]	Enter AdminPassword:
+INFO	2021-08-12 21:54:29,478	204556	LibraryClient	[main]	your Login is finished successfully
+INFO	2021-08-12 21:54:29,478	204556	LibraryClient	[main]	your role is :fineadmin
+INFO	2021-08-12 21:54:29,478	204556	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:54:29,478	204556	LibraryManagement	[main]	1.view All books
+INFO	2021-08-12 21:54:29,478	204556	LibraryManagement	[main]	2.view All Users 
+INFO	2021-08-12 21:54:29,478	204556	LibraryManagement	[main]	3.Display issued book details
+INFO	2021-08-12 21:54:29,478	204556	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:54:29,478	204556	LibraryManagement	[main]	Enter your choice : 
+INFO	2021-08-12 21:54:31,308	206386	LibraryManagement	[main]	Admin starting view all books 
+INFO	2021-08-12 21:54:31,308	206386	LibraryManagement	[main]	Wecome to view all Books section ##
+INFO	2021-08-12 21:54:31,309	206387	LibraryManagement	[main]	###Entire list of Books:
+INFO	2021-08-12 21:54:31,309	206387	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:54:31,309	206387	LibraryManagement	[main]	1.view All books
+INFO	2021-08-12 21:54:31,309	206387	LibraryManagement	[main]	2.view All Users 
+INFO	2021-08-12 21:54:31,309	206387	LibraryManagement	[main]	3.Display issued book details
+INFO	2021-08-12 21:54:31,309	206387	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:54:31,309	206387	LibraryManagement	[main]	Enter your choice : 
+INFO	2021-08-12 21:54:32,197	207275	LibraryManagement	[main]	Admin starting view all users
+INFO	2021-08-12 21:54:32,197	207275	LibraryManagement	[main]	Wecome to view all Users section ##
+INFO	2021-08-12 21:54:32,198	207276	LibraryManagement	[main]	###Entire list of users:
+INFO	2021-08-12 21:54:32,198	207276	LibraryManagement	[main]	User [userId=2, userName=logi, userRole=student, userMailId=logi@com, userMobileNumber=889789965, userPassword=logi123, dateCreatedOn=22-03-2012]
+INFO	2021-08-12 21:54:32,198	207276	LibraryManagement	[main]	User [userId=5, userName=vijay, userRole=student, userMailId=vijay@com, userMobileNumber=781286765, userPassword=vijay123, dateCreatedOn=07-07-2021]
+INFO	2021-08-12 21:54:32,198	207276	LibraryManagement	[main]	User [userId=3, userName=mathii, userRole=student, userMailId=mathi@com, userMobileNumber=567567543, userPassword=mathi123, dateCreatedOn=2021-08-12]
+INFO	2021-08-12 21:54:32,198	207276	LibraryManagement	[main]	User [userId=1, userName=pavithra, userRole=student, userMailId=pavi@com, userMobileNumber=876787678, userPassword=pavi123, dateCreatedOn=2021-08-12]
+INFO	2021-08-12 21:54:32,198	207276	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:54:32,198	207276	LibraryManagement	[main]	1.view All books
+INFO	2021-08-12 21:54:32,198	207276	LibraryManagement	[main]	2.view All Users 
+INFO	2021-08-12 21:54:32,198	207276	LibraryManagement	[main]	3.Display issued book details
+INFO	2021-08-12 21:54:32,198	207276	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:54:32,198	207276	LibraryManagement	[main]	Enter your choice : 
+INFO	2021-08-12 21:54:33,386	208464	LibraryManagement	[main]	Admin starting display issued book details section 
+INFO	2021-08-12 21:54:33,386	208464	LibraryManagement	[main]	
+Enter the user's id to get the details of book borrowed
+INFO	2021-08-12 21:54:36,432	211510	LibraryManagement	[main]	
+Menu List Options:
+INFO	2021-08-12 21:54:36,432	211510	LibraryManagement	[main]	1.view All books
+INFO	2021-08-12 21:54:36,433	211511	LibraryManagement	[main]	2.view All Users 
+INFO	2021-08-12 21:54:36,433	211511	LibraryManagement	[main]	3.Display issued book details
+INFO	2021-08-12 21:54:36,433	211511	LibraryManagement	[main]	-1.EXIT
+INFO	2021-08-12 21:54:36,433	211511	LibraryManagement	[main]	Enter your choice : 
