@@ -173,7 +173,7 @@ public class LibraryClient {
 		logger.info("**********************************************************************");
 		logger.info("Enter userId:");
 		try {
-			int userId = s.nextInt();
+			Integer userId = s.nextInt();
 			s.nextLine();
 			logger.info("Enter userPassword:");
 			String userPassword = s.nextLine();
@@ -181,7 +181,7 @@ public class LibraryClient {
 			List<User> users = libraryService.getAllUsers();
 
 			user = users.stream()
-					.filter(u -> userId == (u.getUserId()))
+					.filter(u -> userId .equals (u.getUserId()))
 					.filter(u -> userPassword.equals(u.getUserPassword()))
 					.findAny().orElse(null);
 
@@ -210,7 +210,7 @@ public class LibraryClient {
 		logger.info("**********************************************************************");
 		logger.info("Enter adminId:");
 		try {
-			int adminId = s.nextInt();
+			Integer adminId = s.nextInt();
 			s.nextLine();
 			logger.info("Enter AdminPassword:");
 			String adminPassword = s.nextLine();
@@ -221,7 +221,7 @@ public class LibraryClient {
 			
 			
 			 Admin admin=admins.stream() 
-					  .filter(u-> adminId==(u.getAdminId())) 
+					  .filter(u-> adminId.equals(u.getAdminId())) 
 					  .filter(u->adminPassword.equals(u.getAdminPassword())) 
 					  .findAny().orElse(null);
 
