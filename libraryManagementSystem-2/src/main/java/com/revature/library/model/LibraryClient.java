@@ -22,7 +22,7 @@ public class LibraryClient {
 	private static Logger logger = Logger.getLogger("LibraryClient");
 	static Admin admin = new Admin();
 	static User user = new User();
-
+        //Home page
 	public void startMainMenu() {
 
 		while (true) {
@@ -64,7 +64,7 @@ public class LibraryClient {
 		}
 
 	}
-
+	// user account creation
 	private void createNewAccount() {
 
 		logger.info("Welcome to Account creation:");
@@ -80,15 +80,16 @@ public class LibraryClient {
 			String userRole = s.nextLine();
 			logger.info("Enter userMailId:");
 			String userMailId = s.nextLine();
-			String regex = "^[a-z0-9+_.-]+@[a-z0-9.-]+$";
+			String regex = "^[a-z0-9+_.-]+@[a-z0-9.-]+$";  //email verification
 
 			Pattern pattern = Pattern.compile(regex);
 			Matcher matcher = pattern.matcher(userMailId);
 			if (matcher.matches()) {
 
 				logger.info("Enter userMobileNumber:");
-				String userMobileNumber = s.nextLine();
-				if (userMobileNumber.length() != 10) {
+				String userMobileNumber = s.nextLine(); 
+				//mobile number verification
+				if (userMobileNumber.length() != 10) {  
 					logger.info("enter appropriate 10 digit mobile number");
 					startMainMenu();
 				} else {
@@ -96,6 +97,7 @@ public class LibraryClient {
 					String userPassword = s.nextLine();
 					logger.info("Enter userPassword again to confirm:");
 					String userPasswordAgain = s.nextLine();
+					//password verification
 					if (userPassword.equals(userPasswordAgain)) {
 						logger.info("password verification is success!");
 					} else {
@@ -128,7 +130,8 @@ public class LibraryClient {
 		}
 
 	}
-
+       
+	//general login
 	private void login() {
 
 		logger.info("Welcome to Login Section:");
@@ -165,7 +168,8 @@ public class LibraryClient {
 
 		}
 	}
-
+ 
+	//userLogin
 	private void loginAsUser() {
 
 		logger.info("Welcome to User Login Section:");
@@ -203,6 +207,7 @@ public class LibraryClient {
 
 	}
 
+	//adminlogin
 	private void loginAsAdmin() {
 
 		logger.info("Welcome to Admin Login Section:");
