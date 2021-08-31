@@ -65,10 +65,8 @@ public class LibraryDAOImplementation implements LibraryDAO {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		if (res == 0)
-			return false;
-		else
-			return true;
+		boolean val= res==0 ? false :true;
+		return val;
 	}
 
 	public boolean updateUser(User user) {
@@ -90,10 +88,8 @@ public class LibraryDAOImplementation implements LibraryDAO {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		if (res == 0)
-			return false;
-		else
-			return true;
+		boolean val= res==0 ? false :true;
+		return val;
 	}
 
 	public boolean deleteUser(int userId) {
@@ -105,10 +101,8 @@ public class LibraryDAOImplementation implements LibraryDAO {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		if (res == 0)
-			return false;
-		else
-			return true;
+		boolean val= res==0 ? false :true;
+		return val;
 
 	}
 
@@ -375,10 +369,8 @@ public class LibraryDAOImplementation implements LibraryDAO {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		if (res == 0)
-			return false;
-		else
-			return true;
+		boolean val= res==0 ? false :true;
+		return val;
 	}
 
 	public boolean updateBook(Book book) {
@@ -398,10 +390,8 @@ public class LibraryDAOImplementation implements LibraryDAO {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		if (res == 0)
-			return false;
-		else
-			return true;
+		boolean val= res==0 ? false :true;
+		return val;
 	}
 
 	public boolean deleteBook(int bookId) throws NegativeBookId {
@@ -415,10 +405,8 @@ public class LibraryDAOImplementation implements LibraryDAO {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		if (res == 0)
-			return false;
-		else
-			return true;
+		boolean val= res==0 ? false :true;
+		return val;
 
 	}
 
@@ -486,10 +474,8 @@ public class LibraryDAOImplementation implements LibraryDAO {
 
 			e.printStackTrace();
 		}
-		if (res == false)
-			return false;
-		else
-			return true;
+		boolean val= res==false ? false :true;
+		return val;
 
 	}
 	
@@ -529,10 +515,8 @@ public class LibraryDAOImplementation implements LibraryDAO {
 
 			e.printStackTrace();
 		}
-		if (flag == 0)
-			return false;
-		else
-			return true;
+		boolean val= flag==0 ? false :true;
+		return val;
 
 	}
 
@@ -557,11 +541,8 @@ public class LibraryDAOImplementation implements LibraryDAO {
 
 			e.printStackTrace();
 		}
-		if (res == 1)
-			return true;
-		else
-			return false;
-
+		boolean val= res==0 ? false :true;
+		return val;
 	}
 
 	@Override
@@ -585,10 +566,8 @@ public class LibraryDAOImplementation implements LibraryDAO {
 
 			e.printStackTrace();
 		}
-		if (res == 1)
-			return true;
-		else
-			return false;
+		boolean val= res==0 ? false :true;
+		return val;
 
 	}
 
