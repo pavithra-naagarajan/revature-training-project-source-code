@@ -56,7 +56,7 @@ public class UpdateSection {
 				}
 
 				logger.info(executeResult > 0 ? "User's name is updated" : "");
-				;
+				
 
 				break;
 
